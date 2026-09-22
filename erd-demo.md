@@ -1,3 +1,5 @@
+```mermaid
+
 erDiagram
     AUTHOR {
         int author_id PK
@@ -9,3 +11,5 @@ erDiagram
         string title
     }
     AUTHOR ||--o{ BOOK : writes
+
+```
